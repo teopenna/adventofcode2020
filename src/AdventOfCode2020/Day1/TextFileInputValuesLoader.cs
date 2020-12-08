@@ -8,7 +8,7 @@ namespace AdventOfCode2020.Day1
     {
         public IList<long> LoadInputValues()
         {
-            var fileItems = File.ReadAllLines("input.txt");
+            var fileItems = File.ReadAllLines("input1.txt");
             var inputValues = fileItems.Select(long.Parse).ToList();
             return inputValues;
         }
